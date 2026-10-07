@@ -1,1 +1,19 @@
-hi
+NGINX (pronounced "engine-x"):
+===============================
+It is a high-performance web server and reverse proxy server. In a typical React + Spring Boot application, NGINX can sit between the client and your backend/frontend and handle incoming HTTP/HTTPS requests.
+A simple architecture is: 
+User / Browser
+                   |
+                   | HTTP / HTTPS  
+                   ↓
+              +---------+
+              |  NGINX  |
+              +---------+
+               /       \
+              /         \
+             ↓           ↓
+       React Frontend   Spring Boot
+       Static Files       Backend
+                          |
+                          ↓
+                       MySQL
