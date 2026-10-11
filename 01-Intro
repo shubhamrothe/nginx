@@ -1,5 +1,9 @@
 NGINX (pronounced "engine-x"):
 ===============================
+NGNIX is developed by an Russian Developr Igor Sysoev.
+Igor Sysoev originally wrote NGNIX to solve C10k problem.
+NGNIX released as open source in 2004.
+Today NGNIX and NGNIX PLUS can handle hundreds of thousands concurrent connections and powe more than 50% of busiest sites on the web.
 It is a high-performance web server and reverse proxy server. In a typical React + Spring Boot application, NGINX can sit between the client and your backend/frontend and handle incoming HTTP/HTTPS requests.
 A simple architecture is: 
 User / Browser
@@ -17,3 +21,8 @@ User / Browser
                           |
                           ↓
                        MySQL
+
+It is multifunctional tool. with NGNIX , user can use the same tool as a load balancer, reverse proxy, content cache and web server.
+NGNIX supports micro-services to HTTP/2 protocols.
+NGNIX is Docker friendly, which makes it first choice for Cloud based Applications load Balancer.
+NGNIX supports N number of Open-Source third party libraries which makes it more flexible and expandable.
